@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina informativa</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu1">
+            <ul>
+                <li><a href="#CSS">CSS</a></li>
+                <li><a href="#Javascript">Javascript</a></li>
+                <li><a href="#atributos_css">Tabla Atributos CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="CSS">
+    <h1>CCS</h1>
+<H2>Que es?:</H2>
+<p> 
+    CSS (Cascading Style Sheets, en español Hojas de Estilo en Cascada) es un lenguaje de diseño utilizado para definir el aspecto visual de una página web. Mientras que HTML se encarga de la estructura y el contenido de una página, CSS se usa para controlar cómo se ve ese contenido: colores, fuentes, tamaños, márgenes, posiciones, animaciones y más.
+
+</p>
+<h2>Para que sirve CSS</h2>
+<ol>
+    <li>Controlar el diseño visual:
+        <ul>
+            <li>Define colores de fondo, textos, bordes, etc.</li>
+            <li>Ajusta el tamaño y la posición de los elementos.</li>
+            <li>Crea diseños responsivos (que se adaptan a diferentes dispositivos).</li>
+            
+        </ul>
+    </li>
+    <li>Separar el contenido de la presentación:
+        <ul>
+            <li>Permite mantener el HTML limpio y enfocado en la estructura.</li>
+            <li>Facilita la actualización del diseño sin modificar el contenido.</li>
+            
+        </ul>
+    </li>
+    <li>Mejorar la experiencia del usuario:
+        <ul>
+            <li>Añade estilos atractivos y modernos.</li>
+            <li>Permite crear animaciones y transiciones suaves.</li>
+            
+        </ul>
+    </li>
+    
+</ol>
+<a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="Imagenes/CSS-Logo.png" alt="CSS logo "></a> <!--Targer blank para que nos abra en otra pestaña-->
+</section>
+<section id="Javascript">
+    <h1>Javascript</h1>
+    <h2>Que es?</h2>
+    <p>JavaScript es un lenguaje de programación que se utiliza principalmente para añadir interactividad y dinamismo a las páginas web. A diferencia de HTML (que define la estructura) y CSS (que define el estilo), JavaScript permite crear comportamientos complejos, como animaciones, validaciones de formularios, actualizaciones de contenido en tiempo real y mucho más.
+
+    </p>
+    <h2>Para que sirve?</h2>
+    <ol>
+        <li>Interactividad:
+            <ul>
+                <li>Permite que los usuarios interactúen con la página web (por ejemplo, hacer clic en un botón y que ocurra algo).</li>
+                
+            </ul>
+        </li>
+        <li>Manipulación del DOM:
+            <ul>
+                <li>El DOM (Document Object Model) es la representación de la página web en forma de árbol.</li>
+                <li>JavaScript puede modificar el DOM, lo que permite cambiar el contenido, la estructura o el estilo de la página dinámicamente.</li>
+            </ul>
+        </li>
+        <li>Validación de formularios:
+            <ul>
+                <li>Permite validar los datos ingresados por el usuario antes de enviarlos al servidor</li>
+                
+            </ul>
+        </li>
+        <li>Animaciones y efectos visuales:
+            <ul>
+                <li>Permite crear animaciones y transiciones complejas.</li>
+                
+            </ul>
+        </li>
+    </ol>
+    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="Imagenes/JavaScript-logo.png" alt="Logo JavaScript"></a>
+    
+</section>
+
+<section id="atributos_css">
+    <h1>Tabla de atributos css</h1>
+    <div id="tabla">
+        <table border="1px">
+            <tr> <!---Fila enunciados-->
+                <th>Nombre el atributo</th>
+                <th>Descripcion</th>
+                <th>Valores posible</th>
+                <th>Ejemplos de uso</th>
+                <th>Imagen representativa</th>
+                <th>Fuente</th>
+            </tr>
+    
+            <tr> <!--Font-size-->
+                <td>Font-Size</td> 
+                <td>El atributo font-size define el tamaño de la fuente (texto) de un elemento HTML. Controla qué tan grande o pequeño se muestra el texto.</td>
+                <td>Unidades absolutas: px (píxeles), pt (puntos), cm (centímetros), etc.
+    
+                    Unidades relativas: em, rem, % (porcentaje).
+                    
+                    Palabras clave: small, medium, large, x-large, etc.</td>
+                <td>p {
+                    font-size: 16px; }
+                  h1 {
+                    font-size: 2em;}</td>
+                <td ><center><img src="Imagenes/fontsize1.png" alt="Ejemplo font-size"></td></center>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/font-size">Fuente</a></td>
+            </tr>
+            <tr> <!--border-radius-->
+                <td>border-radius</td>
+                <td>El atributo border-radius redondea las esquinas de un elemento. Puedes aplicarlo a cualquier elemento con bordes, como cajas, botones o imágenes.</td>
+                <td>Un valor: 10px (todas las esquinas iguales).
+    
+                    Dos valores: 10px 20px (esquina superior izquierda e inferior derecha, y esquina superior derecha e inferior izquierda).
+                    
+                    Cuatro valores: 10px 20px 30px 40px (cada esquina con un radio diferente).
+                    
+                    Porcentaje: 50% (para crear círculos o elipses).</td>
+                <td>img {
+                    border-radius: 50%;}</td>  <!--Genera una imagen circular-->
+                <td><center><img src="Imagenes/css-border-radius.png" alt="Ejemplo border-radius"></td></center>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/border-radius">Fuente</a></td>
+            </tr>
+    
+            <tr>
+                <td>display</td>
+                <td>El atributo display controla cómo se muestra un elemento en la página. Define si un elemento es un bloque, en línea, o utiliza un modelo de diseño como flexbox o grid.</td>
+                <td>block: El elemento ocupa todo el ancho disponible.
+    
+                    inline: El elemento ocupa solo el espacio necesario.
+                    
+                    inline-block: Combina características de bloque y en línea.
+                    
+                    none: Oculta el elemento.
+                    
+                    flex: Activa el modelo de diseño flexbox.
+                    
+                    grid: Activa el modelo de diseño grid.</td>
+                <td> .container {
+                    display: flex; }</td>
+                <td><center><img src="Imagenes/display.jpg" alt="Ejemplo Display"></td></center>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/display">Fuente</a></td>
+            </tr>
+            <tr>
+                <td>flexbox</td>
+                <td>Flexbox es un modelo de diseño que permite organizar elementos de manera flexible dentro de un contenedor. Se activa con display: flex y permite controlar la alineación, dirección y distribución de los elementos hijos.</td>
+                <td>flex-direction: Define la dirección de los elementos (fila o columna).
+
+                    justify-content: Alinea los elementos en el eje principal.
+                    
+                    align-items: Alinea los elementos en el eje secundario.
+                    
+                    flex-wrap: Controla si los elementos se envuelven en múltiples líneas.</td>
+                <td>.container {
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center; }</td>
+                <td><img src="Imagenes/css-flex-box.jpg" alt="Flexbox ejemplo"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Fuente</a></td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>El atributo position define cómo se posiciona un elemento en la página. Puede ser estático, relativo, absoluto, fijo o "pegajoso".</td>
+                <td>static: Posición normal (por defecto).
+
+                    relative: Posición relativa a su ubicación original.
+                    
+                    absolute: Posición relativa al contenedor más cercano con posición no estática.
+                    
+                    fixed: Posición fija en la ventana del navegador.
+                    
+                    sticky: Combina relative y fixed.</td>
+                <td>div {
+                    position: relative;
+                    top: 20px; 
+                  }
+                  
+                  header {
+                    position: fixed; }</td>
+                <td><img src="Imagenes/css-position-all.png" alt="Position ejemplo"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/position">Fuente</a></td>
+            </tr>
+
+            <tr>
+                <td>box-shadow</td>
+                <td>El atributo box-shadow agrega sombras a un elemento. Puedes controlar el desplazamiento, el desenfoque, el color y el tamaño de la sombra.</td>
+                <td>h-offset: Desplazamiento horizontal.
+
+                    v-offset: Desplazamiento vertical.
+                    
+                    blur: Desenfoque de la sombra.
+                    
+                    spread: Tamaño de la sombra.
+                    
+                    color: Color de la sombra.</td>
+                <td>div {
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+                }</td>
+                <td><img src="Imagenes/box-shadow.jpg" alt="box-shadow"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/box-shadow">Fuente</a></td>
+            </tr>
+
+            <tr>
+                <td>overflow</td>
+                <td>El atributo overflow controla cómo se maneja el contenido que desborda un elemento. Puede ocultarlo, mostrar barras de desplazamiento o permitir que se desborde.</td>
+                <td>visible: Muestra el contenido desbordado.
+
+                    hidden: Oculta el contenido desbordado.
+                    
+                    scroll: Muestra barras de desplazamiento.
+                    
+                    auto: Muestra barras de desplazamiento solo si es necesario.
+                    
+                    </td>
+                <td>div {
+                    overflow: hidden;}</td>
+                <td><img src="Imagenes/overflow.png" alt="overflow"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/overflow">Fuente</a></td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td>El atributo z-index controla el orden de apilamiento de los elementos superpuestos. Un valor mayor coloca el elemento por encima de otros con valores menores.</td>
+                <td>Números enteros: 1, 2, -1, etc</td>
+                <td>div {
+                    position: absolute;
+                    z-index: 1;
+                  }</td>
+                <td><img src="Imagenes/zindex.png" alt="z-index"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/z-index">Fuente</a></td>
+            </tr>
+
+            <tr>
+                <td>opacity</td>
+                <td>El atributo opacity controla la transparencia de un elemento. Un valor de 1 es completamente opaco, y 0 es completamente transparente.</td>
+                <td>Números entre 0 y 1: 0.5, 0.75, etc.</td>
+                <td>img {
+                    opacity: 0.5; 
+                  }</td>
+                <td><img src="Imagenes/Opacity.png" alt="Opacity"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/opacity">Fuente</a></td>
+            </tr>
+
+            <tr>
+                <td>margin y padding</td>
+                <td>margin: Define el espacio exterior alrededor de un elemento. padding: Define el espacio interior entre el contenido y el borde de un elemento</td>
+                <td>Unidades: px, em, %, etc.
+
+                    Valores individuales: margin: 10px; (igual en todos los lados).
+                    
+                    Valores múltiples: margin: 10px 20px; (arriba/abajo y izquierda/derecha).</td>
+                <td>div {
+                    margin: 20px; 
+                    padding: 10px; 
+                  }</td>
+                <td><img src="Imagenes/css margin vs padding-5.webp" alt="padding vs margin"></td>
+                <td><a href="#https://developer.mozilla.org/es/docs/Web/CSS/margin">Fuente</a></td>
+            </tr>
+    
+        </table>
+    </div>
+</section>
+<footer>
+
+<img src="Imagenes/Logo-Uniagustiniana-768x630.png" alt="Logo uniagustiniana">
+<h2>Hecho por; Nestor Eduardo Albarracin</h2>
+</footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body
+{
+    background-color: #0f172a;         
+    color: #f1f5f9;                    
+    font-family: 'Fira Code', monospace; 
+}
+
+header
+{
+    width: 100%; /*Ocupamos todo el ancho de la seccion*/
+    background-color: #62789b;
+    display: flex;/*Mostranos en una sola linea*/
+    justify-content: center; /*Centrar contenido dentro de esta clase*/
+}
+
+h1
+{
+    color: #38bdf8;
+    font-size: 3rem;
+    border-bottom: 3px solid #38bdf8; /*Subrayado*/
+    text-align: center; /*Centrado*/
+}
+
+h2
+{
+    text-align: center; /*Centrado*/
+    
+}
+
+a img
+{
+    border-radius: 8px; /*Bordeamos un poco la imagen*/
+}
+
+a img:hover
+{
+    transform: scale(1.05);  /* Efecto de agrandado suave */
+    opacity: 0.85;           /* Un poco más transparente al pasar */
+}
+
+p
+{
+    letter-spacing: 0.3px; /*Pequeño espaciado*/
+    text-align: justify; /*Justificamos*/
+}
+.menu1 ul
+{
+    display: flex; /*Muestra en la misma  linea visual */
+    padding: 0; /*Adapatamos espacio*/
+    margin:0;
+
+    list-style: none;/*Limpiamos el estilo si es que tiene*/    
+}
+
+.menu1 a
+{
+    display: block; /*Hace que el elemento se representado en un bloque*/
+    padding: 1em 2em; /* Ajuste del padding 1em es para arreglarlo arriba y abajo y 2em es para arreeglarlo izquierda derecha */
+    background-color:#62789b; /*Pone color al elemento */
+    text-decoration: none; /*Elimina el estilo si es que hay subrayado o algo mas*/ 
+    color: #1a1d26; /*Definimos el color del texto*/
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.menu1 a:hover
+{
+    background-color:#145fd9; /*Damos color al hover*/
+}
+
+#CSS img
+{
+    width: 30%;
+    height: 30%;
+    
+   
+} 
+
+#CSS ol li ul li /*Entra en los modulos*/
+{
+    letter-spacing: 0.3px; /*Un pequeño espacidado*/
+    line-height: 1.6; /* Espaciado entre líneas para facilitar la lectura */
+   
+
+}
+
+#Javascript img
+{
+    width: 25%;
+    height: 20%;    
+    border-radius: 50%; /*Lo hacemos circular*/
+    
+}
+
+#Javascript ol li ul li
+{
+    letter-spacing: 0.3px; /*Un pequeño espacidado*/
+    line-height: 1.6; /* Espaciado entre líneas para facilitar la lectura */
+}
+
+#atributos_css img
+{
+    width:100%;
+    height:100%;
+    
+    
+}
+
+#tabla /*Con esta ID estamos centrando nuesta tabla*/
+{
+   
+    margin: 150px auto;
+}
+
+table
+{
+    background-color: rgb(1, 1, 1); /*Color borde*/
+    text-align: left; /*Centrar tabla*/
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem; /* Tamaño reducido para celulares */
+
+}
+
+tr th
+{
+   
+    padding: 0;
+    background-color: #114054;
+}
+
+tr td
+{
+
+    padding: 0;
+    background-color: #114054;
+}
+
+footer 
+{
+    border-bottom: 3px solid #38bdf8;
+    background-color: #030f35;
+}
+
+footer img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
